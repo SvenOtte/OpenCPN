@@ -226,6 +226,10 @@ class NMEA0183
 
       wxString TalkerID;
       wxString ExpandedTalkerID;
+      
+      wxString tagDestinationIdentification;
+      wxString tagSourceIdentification;
+      wxString tagSentenceGroup;
 
 //      MANUFACTURER_LIST Manufacturers;
 
